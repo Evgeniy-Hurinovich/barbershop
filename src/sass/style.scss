@@ -1,0 +1,35 @@
+@import "libs/bootstrap-reboot.min";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap");
+
+@import "base/variables";
+
+* {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --text-color: rgb(17, 255, 0);
+  --big_text: 20px;
+}
+
+.container {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+@import "blocks/promo";
+@import "blocks/title";
+@import "blocks/button";
+@import "blocks/sidepanel";
+@import "blocks/menu";
+
+@import "blocks/about";
+@import "blocks/price";
+@import "blocks/portfolio";
+@import "blocks/footer";
+@import "blocks/media";

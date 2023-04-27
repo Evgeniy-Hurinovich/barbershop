@@ -1,0 +1,30 @@
+.portfolio {
+  padding-top: 80px;
+  &__backImage {
+    position: absolute;
+    padding-left: 492px;
+    margin-top: -449px;
+    z-index: -1;
+  }
+  &__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template: repeat(2, 554px) / repeat(3, 502px);
+    justify-content: center;
+    column-gap: 35px;
+    row-gap: 35px;
+  }
+
+  &__item {
+    transition: all 0.6s;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &:hover {
+      transform: scale(1.05);
+      filter: contrast(110%) brightness(110%) saturate(100%);
+    }
+  }
+}

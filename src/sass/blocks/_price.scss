@@ -1,0 +1,27 @@
+.price {
+  padding-top: 81px;
+  padding-left: 1043px;
+  padding-right: 93px;
+  background: url(../img/main.jpg) center center/cover no-repeat;
+  color: #ffffff;
+  &__section {
+    color: #ffffff;
+  }
+  &__wrapper {
+    margin-top: 80px;
+    display: grid;
+    grid-template-rows: repeat(2, minmax(182px, auto));
+    grid-template-columns: 413px 148px;
+    column-gap: 39px;
+    row-gap: 34px;
+    justify-content: start;
+    justify-items: start;
+  }
+  &__type {
+    line-height: 193.5%;
+  }
+  &__btns {
+    padding-top: 107px;
+    padding-bottom: 100px;
+  }
+}
